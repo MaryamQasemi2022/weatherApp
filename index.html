@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      href="assets/images/icon.jpg"
+      type="image/jpg"
+      sizes="20x20"
+    />
+    <title>weatherApp</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <header>
+          <i class="bi bi-arrow-left hidden" style="margin-right: 5px"></i
+          >Weather App
+        </header>
+        <div class="card-body">
+          <section class="input-part">
+            <div class="search-box">
+              <input type="text" placeholder="Enter city name" />
+              <button class="serach-btn"><i class="bi bi-search"></i></button>
+            </div>
+            <div class="separator"></div>
+            <button class="device-location-btn">get device location</button>
+            <p class="info-text"></p>
+          </section>
+          <section class="weather-part hidden">
+            <div class="icon">
+              <img src="" />
+            </div>
+            <div class="temprature">
+              <span class="numb"></span> <span class="deg">°</span>C
+            </div>
+            <div class="description"></div>
+            <div class="location">
+              <i class="bi bi-geo-alt"></i>
+              <span></span>
+            </div>
+            <div class="detail">
+              <div class="humidity">
+                <i class="bi bi-moisture"></i><span></span>
+                <p>Humidity</p>
+              </div>
+              <div class="wind">
+                <i class="bi bi-wind"></i><span></span>
+                <p>meter/sec</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
