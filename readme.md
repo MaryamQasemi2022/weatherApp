@@ -1,1 +1,1 @@
-**this is a weather app that develope by M.Q**
+**This is a weather app that develope by M.Q**
