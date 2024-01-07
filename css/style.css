@@ -148,15 +148,9 @@ body,
     #06beb6
   );  */
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("../assets/images/city.jpg");
-
-  background: -webkit-linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url("../assets/images/city.jpg");
-
+    url("../assets/images/beach2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
