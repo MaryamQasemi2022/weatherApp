@@ -150,6 +150,13 @@ body,
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
     url("../assets/images/city.jpg");
 
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../assets/images/city.jpg");
+
   display: flex;
   justify-content: center;
   align-items: center;
